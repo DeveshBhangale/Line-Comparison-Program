@@ -18,7 +18,8 @@ public class LineComparison {
 		// Use Case - 2
 		System.out.println(Integer.toString(lengthl1).equals(Integer.toString(lengthl2)));
 		
-		
+		//Use Case - 3
+		System.out.println(Integer.toString(lengthl1).compareTo(Integer.toString(lengthl2)));
 	}
 
 }
