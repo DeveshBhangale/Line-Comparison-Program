@@ -1,5 +1,13 @@
 import java.util.*;
 public class LineComparison {
+	public static boolean equals(int lengthl1, int lengthl2) {
+		return Integer.toString(lengthl1).equals(Integer.toString(lengthl2));
+	}
+	public static int compareTo(int lengthl1, int lengthl2) {
+		int a = Integer.toString(lengthl1).compareTo(Integer.toString(lengthl2));
+		return a;
+	}
+	
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
