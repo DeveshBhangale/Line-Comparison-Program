@@ -12,14 +12,6 @@ public class LineComparison {
 		}		
 		// Use Case - 1
 		int lengthl1 = (int) Math.sqrt(Math.pow((a[2]-a[0]),2) + Math.pow((a[3]-a[1]),2));
-		int lengthl2 = (int) Math.sqrt(Math.pow((a[6]-a[4]),2) + Math.pow((a[7]-a[5]),2));
-		
-		
-		// Use Case - 2
-		System.out.println(Integer.toString(lengthl1).equals(Integer.toString(lengthl2)));
-		
-		//Use Case - 3
-		System.out.println(Integer.toString(lengthl1).compareTo(Integer.toString(lengthl2)));
-	}
+		int lengthl2 = (int) Math.sqrt(Math.pow((a[6]-a[4]),2) + Math.pow((a[7]-a[5]),2))
 
 }
